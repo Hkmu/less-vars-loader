@@ -1,0 +1,34 @@
+{
+  "name": "@kemu/less-vars-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint:fix": "eslint --fix index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "less2js": "^1.0.0",
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-sonarjs": "^0.2.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.27.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "description": "Make less vars available in JavaScript.",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
+}
